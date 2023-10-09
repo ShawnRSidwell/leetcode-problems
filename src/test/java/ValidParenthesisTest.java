@@ -18,6 +18,7 @@ public class ValidParenthesisTest {
         assertTrue(vp.isValid("[][]"));
         assertTrue(vp.isValid("[]{}()"));
         assertTrue(vp.isValid("{}[]()(){}[]"));
+        assertTrue(vp.isValid("{}[]()(){}{}"));
     }
 
     @Test
